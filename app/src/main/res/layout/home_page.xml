@@ -5,18 +5,47 @@
         android:id="@+id/home_page_wrapper"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
-
+        android:orientation="vertical">
         <GridLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:background="@color/main"
+            android:columnCount="2"
+            android:rowCount="1">
+            <TextView
+                android:id="@+id/nav_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/nav_title"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="10dp" />
+            <SearchView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/dark"
+                android:inputType="text" />
+        </GridLayout>
+        <RelativeLayout
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:text="Catatan"
+            <Button
+                android:id="@+id/buttonAddTask"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textColor="@color/white"
+                android:text="+"
+                android:layout_margin="6dp"
+                android:padding="0"
+
                 />
 
-        </GridLayout>
-
+        </RelativeLayout>
     </LinearLayout>
 
 </merge>

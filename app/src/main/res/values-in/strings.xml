@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="label_set_name">Nama:</string>
+    <string name="label_say_hello_button">Ucapkan Halo</string>
+    <string name="result_say_hello">Halo %1$s</string>
+</resources>

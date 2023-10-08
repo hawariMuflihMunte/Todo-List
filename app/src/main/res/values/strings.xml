@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Todo List</string>
+    <string name="label_set_name">Name:</string>
+    <string name="label_say_hello_button">Say Hello</string>
+    <string name="result_say_hello">Hello %1$s</string>
+    <string-array name="str_arr">
+        <item>String One</item>
+        <item>String Two</item>
+        <item>String Three</item>
+    </string-array>
 </resources>
